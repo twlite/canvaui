@@ -1,0 +1,45 @@
+{
+  "name": "canvaui",
+  "version": "0.0.1",
+  "description": "A server side framework for creating images with React",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "files": [
+    "dist",
+    "src",
+    "test/index.tsx",
+    "test/output/0.svg"
+  ],
+  "keywords": [
+    "canvas",
+    "html",
+    "ui",
+    "react",
+    "component",
+    "reactive"
+  ],
+  "author": "twlite <hello@twlite.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twlite/canvaui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twlite/canvaui/issues"
+  },
+  "homepage": "https://github.com/twlite/canvaui#readme",
+  "dependencies": {
+    "react-reconciler": "^0.29.2",
+    "satori": "^0.10.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react-reconciler": "^0.28.8",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}

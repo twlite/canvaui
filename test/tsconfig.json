@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "target": "ES2020",
+    "outDir": "./",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "declaration": false,
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["./*.ts", "./*.tsx"],
+  "exclude": ["./*.js"]
+}
